@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Rupee Game</title>
+</head>
+
+<body>
+<div id="wrapper">
+    <h1>Rupee Race</h1>
+</div>
+
+<div id="container">
+  <div class="row">
+      <div class="col-md-6">
+          <h2>Instructions</h2>
+      </div>
+  </div>
+
+  <div class="row">
+     <div class="col-md-6">
+        <p>The objective is to match the score of the random number displayed, to do that you will need to select from the four rupees displayed. Each of the rupees has a random value assigned to it that can only be discovered by selecting that rupee, continue picking rupees until you reach the goal!</p>
+     </div>
+  </div>
+
+     <br> <br> <br>
+
+  <div class="row">
+      <div class="col-md-4">
+          <h3>Goal</h3>
+          <h3 id="goal"></h3>
+      </div>
+      <div class="col-md-4">
+          <h3>Wins</h3>
+          <h3 id="currentWins"></h3>
+          <h3>Losses</h3>
+          <h3 id="currentLosses"></h3>
+      </div>
+  </div>
+  
+  <br> <br>
+
+  <div class="row">
+      <div class="col-md-9">
+          <input type= "image" img id="redc" src="assets/images/red.jpg" alt="Red Crystal">
+          <input type= "image" img id="greenc" src="assets/images/green.jpg" alt="Green Crystal">
+          <input type = "image" img id="bluec" src="assets/images/blue.jpg" alt="Blue Crystal">
+          <input type = "image" img id="yellowc" src="assets/images/yellow.jpg" alt="Yellow Crystal">
+      </div>
+  </div>
+
+   <br><br>
+
+  <div class="row">
+      <div class="col-md-6">
+          <h3>Current Rupees</h3>
+          <h3 id="currentScore"></h3>
+      </div>
+  </div>
+
+</div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

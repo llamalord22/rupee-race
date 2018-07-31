@@ -1,0 +1,20 @@
+
+
+body{
+    background-color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("../images/rupeebg.jpg");
+}
+
+
+
+
+#bluec,
+#greenc,
+#yellowc,
+#redc {
+    display: block;
+    max-width: 15%;
+    float: left;
+}
